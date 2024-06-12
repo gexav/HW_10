@@ -1,0 +1,32 @@
+    1  cd /c/Users/gexav/Documents/GIT/HW_10/
+    2  git clone https://github.com/gexav/HW_10
+    3  cd /c/Users/gexav/Documents/GIT/HW_10/
+    4  touch text_ignore.txt
+    5  cd /c/Users/gexav/Documents/GIT/HW_10/HW_10/
+    6  touch text_ignore.txt
+    7  nano .gitignore
+    8  git status
+    9  git add .
+   10  git commit
+   11  git commit -m "some_comment"
+   12  clear
+   13  touch main_test.txt
+   14  git add .
+   15  git commit -m "додав порожній мейн"
+   16  git branch "develop"
+   17  git checkout "develop"
+   18  touch develop_test.txt
+   19  git add .
+   20  git commit
+   21  git commit -m "закомітив девелоп"
+   22  nano develop_test.txt
+   23  cat develop_test.txt 
+   24  git status
+   25  git add .
+   26  [200~git config --global core.autocrlf true
+   27  git config --global core.autocrlf true
+   28  git commit -m "розповідь про погоду"
+   29  git checkout main
+   30  git merge develop
+   31  git log
+   32  history > command_list.csv
